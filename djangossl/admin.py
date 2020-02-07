@@ -7,4 +7,4 @@ from djangossl.models import SSL
 class AdminSSL(admin.ModelAdmin):
 
     def has_module_permission(self, request):
-        return request.user.is_superuser()
+        return request.user.is_superuser
