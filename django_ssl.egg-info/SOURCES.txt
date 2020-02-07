@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_ssl.egg-info/PKG-INFO
+django_ssl.egg-info/SOURCES.txt
+django_ssl.egg-info/dependency_links.txt
+django_ssl.egg-info/top_level.txt
+djangossl/__init__.py
+djangossl/admin.py
+djangossl/apps.py
+djangossl/models.py
+djangossl/tests.py
+djangossl/urls.py
+djangossl/views.py
+djangossl/migrations/0001_initial.py
+djangossl/migrations/__init__.py
