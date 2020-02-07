@@ -1,9 +1,9 @@
-from django.db.models import Model, TextField
+from django.db.models import Model, CharField
 
 
 class SSL(Model):
-    chave = TextField(max_length=999, unique=True)
-    valor = TextField(max_length=999,)
+    chave = CharField(max_length=255, unique=True)
+    valor = CharField(max_length=255,)
 
     class Meta:
         db_table = 'ssl'
