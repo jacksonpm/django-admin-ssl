@@ -4,7 +4,7 @@ from djangossl.models import SSL
 def ssl_http(request, chave):
     ssl = SSL.objects.filter(chave=chave)
     if ssl:
-        valor = str(ssl[0].valor)
+        valor = str(ssl[0].valor).splitlines()
     else:
         valor = ''
     return HttpResponse(valor)
