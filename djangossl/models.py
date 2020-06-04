@@ -9,4 +9,6 @@ class SSL(Model):
         return str(self.chave)
 
     class Meta:
+        verbose_name = "SSL"
+        verbose_name_plural = "SSL"
         db_table = 'ssl'
