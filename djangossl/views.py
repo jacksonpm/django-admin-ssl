@@ -10,7 +10,7 @@ def ssl_http(request, chave):
     else:
         valor = ''
 
-    filename = chave
+    filename = chave + '.txt'
     content = valor
     response = HttpResponse(content, content_type='text/plain')
     response['Content-Disposition'] = 'attachment; filename={0}'.format(filename)
